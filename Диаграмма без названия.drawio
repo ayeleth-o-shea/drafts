@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T09:55:35.089Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ruj6zD_Qm-QhdBLMY96K" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T10:13:16.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="L4CrBygYeWvDDVawiY9V" version="23.0.2" type="github">
   <diagram name="Страница — 1" id="P3ecLGZOcrYlWrDNnfcs">
     <mxGraphModel dx="1242" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
             <mxPoint x="970" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="52N1ftHzn_rj9U5-Bqpi-6" value="Senior Vice Precident (SVP)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="52N1ftHzn_rj9U5-Bqpi-6" value="Senior Vice Precident (SVP Dev)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="133" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="52N1ftHzn_rj9U5-Bqpi-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="52N1ftHzn_rj9U5-Bqpi-4" target="52N1ftHzn_rj9U5-Bqpi-6">
@@ -40,7 +40,7 @@
         <mxCell id="52N1ftHzn_rj9U5-Bqpi-10" value="Product Manager (PM)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="407" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="52N1ftHzn_rj9U5-Bqpi-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;DEV (Dev, QA, DevOps)&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="1">
+        <mxCell id="52N1ftHzn_rj9U5-Bqpi-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;DEV (Dev, SDET, DevOps)&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="17" y="505" width="40" height="180" as="geometry" />
         </mxCell>
         <mxCell id="52N1ftHzn_rj9U5-Bqpi-13" value="Software Engineer II" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
