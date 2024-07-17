@@ -1,9 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T13:12:37.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="23.0.2" etag="BiJ06lH0YmiLJrMrJ1WE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T13:21:55.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="zCajmdH1CD_p4Dk4mX0-" version="23.0.2" type="github">
   <diagram name="Страница — 1" id="U2XVGr_je2QTwxUy2gVb">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-2" value="Запуск пайплайна" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-3" value="Gitlab" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EvD3XJbbB4BaWdCTAQQr-4" target="EvD3XJbbB4BaWdCTAQQr-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-4" value="Cloudscan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvD3XJbbB4BaWdCTAQQr-1" target="EvD3XJbbB4BaWdCTAQQr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvD3XJbbB4BaWdCTAQQr-4" target="EvD3XJbbB4BaWdCTAQQr-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvD3XJbbB4BaWdCTAQQr-7" target="EvD3XJbbB4BaWdCTAQQr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-7" value="Генерация SBOM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-8" value="SYFT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvD3XJbbB4BaWdCTAQQr-9" target="EvD3XJbbB4BaWdCTAQQr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-9" value="сканирование на уязвимости" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-11" value="Deptack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvD3XJbbB4BaWdCTAQQr-12" target="EvD3XJbbB4BaWdCTAQQr-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-12" value="генерирует отчет об уязвимостях" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvD3XJbbB4BaWdCTAQQr-17" target="EvD3XJbbB4BaWdCTAQQr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-17" value="отчет отправляется в CloudGuardian" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-18" value="Cloudguardian" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="520" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvD3XJbbB4BaWdCTAQQr-19" value="считаются цифры для QG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
