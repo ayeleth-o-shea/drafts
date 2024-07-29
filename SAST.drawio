@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T09:00:31.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Em9eJV8BZylk1O6JxsFX" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-29T11:16:29.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x5np108pHYdw8HZHoGyf" version="24.7.1" type="github">
   <diagram name="Страница — 1" id="hdgRyzGxekrmIZ3NcP9e">
     <mxGraphModel dx="1242" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,29 +10,29 @@
         <mxCell id="EfJEgGZbRH4EHWMEyh69-29" value="CloudScan" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="1070" width="1470" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-35" value="запускает инструмент SAST&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-35" value="запуск инструмента SAST&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
           <mxGeometry x="190" y="64" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfJEgGZbRH4EHWMEyh69-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EfJEgGZbRH4EHWMEyh69-29" source="EfJEgGZbRH4EHWMEyh69-44" target="EfJEgGZbRH4EHWMEyh69-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-44" value="забирает отчет" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-44" value="получение отчета" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
           <mxGeometry x="640" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-46" value="отправляет отчет в CG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-46" value="отправка отчета в CloudGuardian" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
           <mxGeometry x="870" y="80" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfJEgGZbRH4EHWMEyh69-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EfJEgGZbRH4EHWMEyh69-29" source="EfJEgGZbRH4EHWMEyh69-53" target="EfJEgGZbRH4EHWMEyh69-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-53" value="учитывает результаты в QG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-53" value="учет значений количества уязвимостей в Quality Gate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
           <mxGeometry x="1118" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfJEgGZbRH4EHWMEyh69-58" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=5;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
           <mxGeometry x="1353" y="91" width="38" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-59" value="Переход к следующему инструменту&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
-          <mxGeometry x="1340" y="45" width="60" height="30" as="geometry" />
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-59" value="ожидание отчетов от других инструментов безопасной разработки" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-29">
+          <mxGeometry x="1293" y="34" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EfJEgGZbRH4EHWMEyh69-30" value="Инструмент SAST" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="1270" width="1470" height="200" as="geometry" />
@@ -40,25 +40,25 @@
         <mxCell id="EfJEgGZbRH4EHWMEyh69-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EfJEgGZbRH4EHWMEyh69-30" source="EfJEgGZbRH4EHWMEyh69-37" target="EfJEgGZbRH4EHWMEyh69-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-37" value="сканирует исходники" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-37" value="сканирование исходного кода" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
           <mxGeometry x="190" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfJEgGZbRH4EHWMEyh69-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EfJEgGZbRH4EHWMEyh69-30" source="EfJEgGZbRH4EHWMEyh69-39" target="EfJEgGZbRH4EHWMEyh69-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-39" value="формирует отчет" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-39" value="формирование&amp;nbsp; отчета" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
           <mxGeometry x="420" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-41" value="оповещает о том, что отчет сформирован" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-41" value="оповещение о готовности отчета" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
           <mxGeometry x="640" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfJEgGZbRH4EHWMEyh69-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EfJEgGZbRH4EHWMEyh69-30" source="EfJEgGZbRH4EHWMEyh69-48" target="EfJEgGZbRH4EHWMEyh69-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-48" value="обрабатывает отчет" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-48" value="обработка отчета" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
           <mxGeometry x="870" y="270" width="140" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="EfJEgGZbRH4EHWMEyh69-51" value="отдает результаты в CloudScan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
+        <mxCell id="EfJEgGZbRH4EHWMEyh69-51" value="передача значений количества уязвимостей в CloudScan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EfJEgGZbRH4EHWMEyh69-30">
           <mxGeometry x="1120" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfJEgGZbRH4EHWMEyh69-31" value="CloudGuardian" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
